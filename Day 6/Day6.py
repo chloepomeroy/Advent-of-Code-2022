@@ -4,7 +4,7 @@
 # In[4]:
 
 
-text_file = open("day6.txt", "r")
+text_file = open("input.txt", "r")
 packet = text_file.read()
 
 
