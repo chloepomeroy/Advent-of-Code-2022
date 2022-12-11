@@ -5,7 +5,7 @@
 
 
 import pandas as pd
-inputs = pd.read_csv("day2.csv", sep=" ", header=None, names=["Opponent Move", "Suggested Move"])
+inputs = pd.read_csv("input.txt", sep=" ", header=None, names=["Opponent Move", "Suggested Move"])
 
 
 # In[38]:
