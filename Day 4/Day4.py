@@ -5,7 +5,7 @@
 
 
 import pandas as pd
-sections = pd.read_csv("day4.txt", sep=",", header=None, names=["Elf 1", "Elf 2"])
+sections = pd.read_csv("input.txt", sep=",", header=None, names=["Elf 1", "Elf 2"])
 
 
 # In[30]:
