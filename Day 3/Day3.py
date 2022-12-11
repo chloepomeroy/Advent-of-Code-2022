@@ -6,7 +6,7 @@
 
 import pandas as pd
 
-rucksacks = pd.read_csv("day3.txt", header=None, names=["items"])
+rucksacks = pd.read_csv("input.txt", header=None, names=["items"])
 
 
 # In[6]:
