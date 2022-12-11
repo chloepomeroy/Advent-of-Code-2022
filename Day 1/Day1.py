@@ -10,7 +10,7 @@ import pandas as pd
 # In[48]:
 
 
-cal = open("day1.txt", "r")
+cal = open("input.txt", "r")
 data = cal.read()
 
 
