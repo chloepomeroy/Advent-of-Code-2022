@@ -4,7 +4,7 @@
 # In[3]:
 
 
-text_file = open("day8.txt", "r")
+text_file = open("input.txt", "r")
 data = text_file.read()
 rows= data.split('\n')
 
