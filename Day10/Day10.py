@@ -13,7 +13,7 @@ np.set_printoptions(linewidth=np.inf)
 # In[1]:
 
 
-text_file = open("day10.txt", "r")
+text_file = open("input.txt", "r")
 data = text_file.read()
 commands= data.split('\n')
 
