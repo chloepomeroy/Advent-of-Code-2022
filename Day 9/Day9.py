@@ -10,7 +10,7 @@ import pandas as pd
 # In[2]:
 
 
-steps = pd.read_csv("day9.csv", header=None, names=["steps"])
+steps = pd.read_csv("input.csv", header=None, names=["steps"])
 steps['Direction'] = steps["steps"].str[0]
 steps['Number'] = steps["steps"].str.extract('(\d+)')
 
