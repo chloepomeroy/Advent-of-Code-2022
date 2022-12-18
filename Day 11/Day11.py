@@ -4,7 +4,7 @@
 # In[104]:
 
 
-text_file = open("day11.txt", "r")
+text_file = open("input.txt", "r")
 data = text_file.read()
 monkeys = [monkey.split('\n') for monkey in data.split('\n\n')]
 
